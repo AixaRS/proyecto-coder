@@ -1,0 +1,12 @@
+@import "variables";
+@import "navbar";
+@import "content";
+@import "products";
+@import "cards";
+@import "footer";
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: $light-bg;
+    color: $text-dark;
+}

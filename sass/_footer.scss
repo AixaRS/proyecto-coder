@@ -1,0 +1,19 @@
+footer {
+    background-color: $dark-bg;
+    color: $text-light;
+    text-align: center;
+    padding: 1.5rem 0;
+
+    h3 {
+        color: $text-light;
+    }
+
+    a {
+        color: $text-light;
+        text-decoration: none;
+
+        &:hover {
+            color: lighten($rojo, 30%);
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.navbar {
+    background-color: $rojo !important;
+
+    .navbar-brand {
+        color: $blanco !important;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $text-dark;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: darken($light-bg, 10%);
+                }
+            }
+        }
+    }
+}

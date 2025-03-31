@@ -1,0 +1,25 @@
+section {
+    background-color: $primary-color;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    border: 2px solid $rojo;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: lighten($rojo, 40%);
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+.buton {
+    background-color: $text-dark; /* verde */
+    border-radius: 12px;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}

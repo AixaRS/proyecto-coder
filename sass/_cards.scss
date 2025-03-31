@@ -1,0 +1,47 @@
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.03);
+    }
+
+    .card-img-top {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        h3 {
+            color: $negro;
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        h4 {
+            color: $secondary-color;
+            font-size: 1.1rem;
+            font-weight: bold;
+            margin-top: 1rem;
+        }
+
+        ul {
+            padding-left: 1.5rem;
+
+            li {
+                list-style: none;
+                position: relative;
+                padding-left: 1.2rem;
+
+                &::before {
+                    content: '\2022';
+                    color: $rojo;
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1rem;
+                    margin-left: -1rem;
+                }
+            }
+        }
+    }
+}
