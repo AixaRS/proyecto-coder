@@ -1,11 +1,13 @@
 .navbar {
-    background-color: $rojo !important;
+    background-color: $nav ;
+    box-shadow: $sombra;
 
     .navbar-brand {
-        color: $blanco !important;
+        color: $blanco;
         font-weight: bold;
         display: flex;
         align-items: center;
+
 
         img {
             margin-right: 10px;
@@ -16,11 +18,11 @@
     .navbar-nav {
         .nav-item {
             .nav-link {
-                color: $text-dark;
+                color: $blanco;
                 transition: color 0.3s ease;
 
                 &:hover {
-                    color: darken($light-bg, 10%);
+                    color: darken($gris, 10%);
                 }
             }
         }
